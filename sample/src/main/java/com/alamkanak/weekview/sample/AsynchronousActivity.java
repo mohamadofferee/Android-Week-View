@@ -24,7 +24,7 @@ public class AsynchronousActivity extends BaseActivity implements Callback<List<
 
     private List<WeekViewEvent> events = new ArrayList<WeekViewEvent>();
     boolean calledNetwork = false;
-
+//test
     @Override
     public List<? extends WeekViewEvent> onMonthChange(int newYear, int newMonth) {
 
